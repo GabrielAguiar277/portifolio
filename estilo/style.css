@@ -6,8 +6,13 @@
     box-sizing: border-box;
 }
 
+
 .menu{
     padding: 0 20%;
+    background: none;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
 }
 
 .menu ul{
@@ -29,8 +34,96 @@
 .menu ul li a{
     text-decoration: none;
     padding: 20px;
+    color: white;
 }
 
-.main{
+.home{
+    height: 100vh;
+    width: 100%;
     font-family: 'Archivo', sans-serif;
+    padding: 0 10%;
+    background-color: #050d18;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.home .main-content{
+    display: flex;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.description{
+    max-width: 600px;
+}
+
+.description p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 520;
+}
+
+.description button{
+    padding: 24px 48px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    background-color: #E62E62;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 0.6s ease-out;
+    cursor: pointer;
+}
+
+.description button:hover{
+    background-color: #f71353;
+}
+
+.social{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.fab{
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.6s ease-out;
+}
+
+.fab:hover{
+    color: #E62E62;
+}
+
+.img-area{
+    margin-left: 100px;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+}
+.wavee{
+    position: absolute;
+    
+}
+
+
+.skills{
+    height: 100vh;
+    width: 100%;
+    background-color: #19111F;
+}
+
+.projects{
+    height: 100vh;
+    width: 100%;
+    background-color: #050d18;
 }
